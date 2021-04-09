@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestOnFirefox(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.application.testcases.MultiBrowserDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.application.testcases.MultiBrowserDemo -->
+    </classes>
+  </test> <!-- TestOnFirefox(failed) -->
+  <test thread-count="5" parallel="tests" name="TestOnChrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.application.testcases.MultiBrowserDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setExtent"/>
+          <include name="loadConfig"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.application.testcases.MultiBrowserDemo -->
+    </classes>
+  </test> <!-- TestOnChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

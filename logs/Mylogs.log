@@ -1,0 +1,5 @@
+[INFO ] 2021-04-09 11:14:00.480 [main] LoggerDemo - this is information message
+[ERROR] 2021-04-09 11:14:00.483 [main] LoggerDemo - this is error message
+[WARN ] 2021-04-09 11:14:00.483 [main] LoggerDemo - this is warning message
+[FATAL] 2021-04-09 11:14:00.483 [main] LoggerDemo - this is fatal message
+[INFO ] 2021-04-09 11:37:26.402 [main] MultiBrowserDemo - this is google page information
